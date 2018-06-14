@@ -43,6 +43,9 @@ gem 'jquery-rails'
 gem 'devise', '~> 4.2'
 gem 'bootstrap_form'
 
+# faker gem is used to generate dummy text
+gem 'faker'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
