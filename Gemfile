@@ -46,6 +46,8 @@ gem "font-awesome-rails"
 gem 'devise', '~> 4.2'
 gem 'bootstrap_form'
 
+gem 'will_paginate', '~> 3.1.0'
+
 # faker gem is used to generate dummy text
 gem 'faker'
 

@@ -1,5 +1,9 @@
 class PostsController < ApplicationController
 
+  def get_posts
+    Post.limit(30)
+  end
+
   def show
     @post = Post.find(params[:id])
   end
@@ -22,5 +26,5 @@ class PostsController < ApplicationController
     @categories = Category.where(branch: branch)
     @posts = get_posts.paginate(page: params[:page])
   end
-...
+
 end
