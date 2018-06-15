@@ -10,7 +10,7 @@ devise_for :users, :controllers => {:registrations => "registrations"}
       get 'hobby'
       get 'study'
       get 'team'
-    end
+    end 
   end
 
 root to: 'pages#index'
