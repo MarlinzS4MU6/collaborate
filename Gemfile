@@ -39,6 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
+gem 'jquery-ui-rails', '~> 6.0.1'
 
 gem 'devise', '~> 4.2'
 gem 'bootstrap_form'
