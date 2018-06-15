@@ -41,6 +41,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 6.0.1'
 
+gem "font-awesome-rails"
+
 gem 'devise', '~> 4.2'
 gem 'bootstrap_form'
 
