@@ -3,6 +3,8 @@ module PostsHelper
     posts.empty? ? 'posts/shared/no_posts' : 'shared/empty_partial'
   end
 
+
+
     def update_pagination_partial_path
       if @posts.next_page
         'posts/posts_pagination_page/update_pagination'
@@ -24,7 +26,7 @@ module PostsHelper
       current_page?(root_path) ? 'posts/post/home_page' : 'posts/post/branch_page'
     end
 
-    
+
 
     def create_new_post_partial_path
       if user_signed_in?
